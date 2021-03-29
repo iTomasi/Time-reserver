@@ -1,3 +1,5 @@
+![alt text](https://i.imgur.com/WpeUxIv.png)
+
 this project tries to be able to reserve a quota maximum 7 quotas for every 30 minutes. Reserved hours will be stored in the localstorage and when there is no space, the time will be painted in red, and if you were the last place, it will be painted yellow
 
 How to use:
