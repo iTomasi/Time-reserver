@@ -1,0 +1,39 @@
+.box {
+    background: #1f2833;
+    position: relative;
+    font-size: 20px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 0.3s;
+
+    span {
+        position: absolute;
+        top: 5px;
+        right: 10px
+    }
+
+    h3 {
+        text-align: center;
+    }
+}
+
+.box:hover {
+    transform: scale(1.02);
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.box.taken {
+    background: #2ecc71;
+}
+
+.box.taken-full {
+    background: #f1c40f;
+    color: #000000;
+}
+
+.box.full {
+    background: #e74c3c;
+}
